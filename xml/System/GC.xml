@@ -273,7 +273,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Forces an immediate garbage collection of all generations.</summary>
+        <summary>"Forces an immediate garbage collection of all generations." (This description does not correspond to reality today. I'm new to C#, literally a few days, so please competent person to change this summary. GC.Collect() do NOT "Forces an immediate garbage collection". If it does, it's probably do it asynchronous, which should be mentioned and not mislead the new programmers like me. The example code below works the same way, whether or not the GC.Collect() is present.) </summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
